@@ -1,0 +1,8 @@
+{
+  "model": "jev-latest",
+  "requestTimeoutMs": 850,
+  "maxDecisionAgeMs": 1000,
+  "lookahead": 240,
+  "allowBoost": true,
+  "maxConsecutiveFailures": 8
+}

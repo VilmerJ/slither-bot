@@ -1,0 +1,13 @@
+node_modules/
+artifacts/*
+!artifacts/.gitkeep
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+models/*
+!models/.gitkeep

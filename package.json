@@ -1,0 +1,20 @@
+{
+  "name": "slither-bot",
+  "version": "1.0.0",
+  "description": "A browser-driven Slither.io bot with replaceable policies and structured observations",
+  "private": true,
+  "scripts": {
+    "start": "node src/cli.js",
+    "start:jev": "node src/cli.js --ai jev --nickname Jev",
+    "start:mcts": "node src/cli.js --ai mcts --nickname MCTS",
+    "setup": "playwright install chromium",
+    "test": "node --test test/*.test.js",
+    "test:live": "node scripts/live-check.js"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

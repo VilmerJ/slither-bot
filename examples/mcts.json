@@ -1,0 +1,8 @@
+{
+  "budgetMs": 40,
+  "maxIterations": 1500,
+  "depth": 10,
+  "exploration": 0.5,
+  "safetyMargin": 8,
+  "maxDecisionAgeMs": 400
+}
